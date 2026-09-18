@@ -1,0 +1,25 @@
+{
+  "name": "Calculator",
+  "version": "1.0.0",
+  "description": "Modular Live Calculator with Fractions & Repeating Decimals",
+  "type": "luno-web-app",
+  "entrypoint": {
+    "file": "js/Calculator.js",
+    "class": "Calculator",
+    "method": "run"
+  },
+  "main": [
+    "js/Fractions.js",
+    "js/Parentheses.js",
+    "js/RepeatingDecimal.js",
+    "js/RepeatingDecimalExpander.js",
+    "js/Calculator.js"
+  ],
+  "library": [
+    "DomBasics.js",
+    "UITools.js"
+  ],
+  "styles": [
+    "css/calculator.css"
+  ]
+}
